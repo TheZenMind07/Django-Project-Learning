@@ -1,0 +1,15 @@
+TypeError: Product() got an unexpected keyword argument 'title'
+>>> Product.objects.create(name = "Product2",description = "Description of product2", rating = "5*", price = "22")
+<Product: Product object (2)>
+>>> Product.objects.create(name = "Product2",description = "Description of product2", rating = "5*", price = "22")
+<Product: Product object (3)>
+>>> Product.objects.create(name = "Product2",description = "Description of product2", rating = "5*", price = "22")
+<Product: Product object (4)>
+>>> Product.objects.create(name = "Product2",description = "Description of product2", rating = "5*", price = "22")
+<Product: Product object (5)>
+>>> Product.objects.create(name = "Product2",description = "Description of product2", rating = "5*", price = "22")
+<Product: Product object (6)>
+>>> Product.objects.create(name = "Product2",description = "Description of product2", rating = "5*", price = "22")
+<Product: Product object (7)>
+>>> Product.objects.create(name = "Product2",description = "Description of product2", rating = "5*", price = "22")
+<Product: Product object (8)>
